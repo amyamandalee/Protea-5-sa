@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .po-body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+} */
+
+.pfisa-body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 250%;
+  height: 250%;
+  object-fit: cover;
+  object-position: right;
+}
+.gif-box:hover {
+  width: 210px;
+  height: 147px;
+}
+.gif-box {
+  width: 200px;
+  height: 140px;
+  overflow: hidden;
+  position: fixed;
+}
+.pfisa-text-left {
+  position: absolute;
+  left: 100px;
+  top: 20%;
+  width: 300px;
+  /* border: 2px solid red; */
+  font-family: dots40;
+  font-size: 14pt;
+  color: #057C58;
+}
+.pfisa-text-left:hover {
+  font-family: cc;
+  font-size: 12pt;
+}
+.pfisa-text-mid {
+  position: absolute;
+  left: -webkit-calc(50% - 80px);
+  top: 40%;
+  width: -webkit-calc(50% + 20px);
+  /* border: 2px solid red; */
+  font-family: dots40;
+  font-size: 50pt;
+  color: #E13E2A;
+}
+.pfisa-text-mid:hover {
+  font-family: cc;
+  font-size: 40pt;
+  top: 42%;
+}
+@font-face {
+  font-family: dots20;
+  src: url("../fonts/TINY5x3-20.otf");
+}
+@font-face {
+  font-family: dots40;
+  src: url("../fonts/TINY5x3-40.otf");
+}
+@font-face {
+  font-family: dots180;
+  src: url("../fonts/TINY5x3-180.otf");
+}
+@font-face {
+  font-family: dots280;
+  src: url("../fonts/TINY5x3-280.otf");
+}
+@font-face {
+  font-family: cc;
+  src: url("../fonts/CirrusCumulus.otf");
+}
+@font-face {
+  font-family: mono;
+  src: url("../fonts/Mono.otf");
+}
